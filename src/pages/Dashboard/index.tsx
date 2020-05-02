@@ -101,12 +101,6 @@ const Dashboard: React.FC = () => {
                   <td>{formatDate(transaction?.created_at)}</td>
                 </tr>
               ))}
-              {/* <tr>
-                <td className="title">Website Hosting</td>
-                <td className="outcome">- R$ 1.000,00</td>
-                <td>Hosting</td>
-                <td>19/04/2020</td>
-              </tr> */}
             </tbody>
           </table>
         </TableContainer>
